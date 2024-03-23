@@ -1,0 +1,72 @@
+.auction-card {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(201, 10, 10, 0.2);
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    max-height: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(119, 121, 118);
+    color: ■#fff;
+}
+
+.card-image img {
+    max-width: 500px;
+    max-height: 275px;
+    height: auto;
+}
+
+.card-details {
+    margin-top: 15px;
+}
+
+
+.card-details h2 {
+    font-size: 1.5rem;
+    color: #ff0000;
+    /* Kirm1z1 baslik*/
+}
+
+.card-details p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.card-action button {
+    background-color: #ffee0e;
+    /* Kirmiz1 dugme arka plan1 */
+    color: #000;
+    /* Siyah dugme metni */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.card-action button:hover {
+    background-color: #ff6666;
+    /* Dugme uzerine gelindiginde rengi acik kirmizi yap */
+}
+
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Sayfa yuksekligine gore ayarlayabilirsiniz */
+}
+
+.circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background-color: silver
+        /* Dairenin rengi */
+}
